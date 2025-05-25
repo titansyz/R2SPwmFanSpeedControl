@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://github.com/jiangshuozz/R2SPwmFanSpeedControl/archive/refs/heads/main.zip -O R2SPwmFanSpeedControl
+wget https://github.com/titansyz/R2SPwmFanSpeedControl/archive/refs/heads/main.zip -O R2SPwmFanSpeedControl
 if [ $? != 0 ];then
     echo "Download fail! PLease try again after 10 seconds!"
     exit $?
