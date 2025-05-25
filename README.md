@@ -9,7 +9,7 @@ R2S Fan口接风扇 温控调速脚本 for OpenWrt
 
 ### 1 全自动安装
 
-curl https://raw.githubusercontent.com/jiangshuozz/R2SPwmFanSpeedControl/main/pwmfan-install -o install && chmod +x install && ./install
+curl https://raw.githubusercontent.com/titansyz/R2SPwmFanSpeedControl/main/pwmfan-install -o install && chmod +x install && ./install
 
 ### 2 手动操作部署
 
