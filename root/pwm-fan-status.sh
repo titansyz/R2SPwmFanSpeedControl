@@ -5,7 +5,7 @@ temp_int=$[$temp/1000]
 temp_float=$[$temp-$temp_int*1000]
 pwm_period=$(cat /sys/class/pwm/pwmchip0/pwm0/period)
 pwm_duty=$(cat /sys/class/pwm/pwmchip0/pwm0/duty_cycle)
-fan_speed=$[100-$[${pwm_duty}*100/${pwm_period}]]
+fan_speed=$[100]
 pid=$(pgrep -f pwm-fan.sh)
 
 echo "------------------- Pwm Fan Status ----------------------"
